@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <link href="SignUp.css" rel="stylesheet" />
+    <script src="SignUp.js"></script>
+    <script src="mainJS.js"></script>
+</head>
+<body>
+
+    <nav>
+        <h2 id="Navlogo">My <span id="Span">Guitar</span></h2>
+        <input id="theme" type="color" />
+        <button onclick="theme()">Change Background Color</button>
+        <ul>
+            <li> <a href="mainPage.html">Home</a> </li>
+            <li> <a href="About.html">About</a> </li>
+            <li> <a href="Guitars.html">Guitars</a> </li>
+            <li> <a href="SignUp.html">Sign Up</a> </li>
+        </ul>
+
+    </nav>
+    <form onsubmit="return Checks()">
+
+        <table width="600px">
+
+            <tr>
+                <td id="H"> First Name: </td>
+                <td> <input type="text" placeholder="enter first name" id="firstname" name="firstname" /> </td>
+                <td id="msg1" class="Note"> </td>
+            </tr>
+
+            <tr>
+                <td id="H"> Last Name: </td>
+                <td> <input type="text" placeholder="enter last name" id="lastname" name="lastname" /> </td>
+                <td id="msg2" class="Note"> </td>
+            </tr>
+
+            <tr>
+                <td id="H"> Birth Year </td>
+                <td> <input type="number" id="bornyear" name="bornyear" /></td>
+                <td id="msg3" class="Note"> </td>
+            </tr>
+
+            <tr>
+                <td id="H"> Gender: </td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label id="gen" for="male">male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label id="gen" for="female">female</label>
+                    <input type="radio" id="othergender" name="gender" value="other">
+                    <label id="gen" for="other">other</label>
+                </td>
+                <td id="msg5" class="Note">  </td>
+            </tr>
+
+            <tr>
+                <td id="H"> Password: </td>
+                <td> <input type="password" placeholder="enter password" id="password" /> </td>
+                <td id="msg6" class="Note"> </td>
+            </tr>
+
+            <tr>
+                <td id="H"> Confirm Password; </td>
+                <td> <input type="password" placeholder="enter password again" id="check_password" /> </td>
+                <td id="msg7" class="Note"> </td>
+            </tr>
+
+            <tr>
+                <td id="H"> City: </td>
+                <td>
+                    <select name="city">
+                        <option value="ראשון לציון" id="rishonLeZion">ראשון לציון</option>
+                        <option value="תל אביב" id="TelAviv">תל אביב</option>
+                        <option value="באר שבע" id="BeerSheva">באר שבע</option>
+                        <option value="נס ציונה" id="NesZiona">נס ציונה</option>
+                        <option value="אשקלון" id="Ashkelon">אשקלון</option>
+                        <option value="ירושלים" id="Jerosalem">ירושלים</option>
+                        <option value="חיפה" id="Bozoland">חיפה</option>
+                    </select>
+                </td>
+                <td id="msg8" class="Note"> </td>
+            </tr>
+
+            <tr>
+                <td id="H"> E-mail </td>
+                <td> <input type="text" placeholder="enter your mail" id="mail" name="mail" /> </td>
+                <td id="msg9" class="Note"> </td>
+            </tr>
+
+        </table>
+        <div >
+            <button id="button1" input type="reset"> Reset </button>
+            <button id="button1" input type="submit"> Submit </button>
+        </div>
+    </form>
+</body>
+</html>

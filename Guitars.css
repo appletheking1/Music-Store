@@ -1,0 +1,69 @@
+﻿body {
+    background-color: rgb(228, 228, 228);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-color: rgb(32, 32, 32);
+}
+
+#Navlogo {
+    font-size: 40px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+}
+
+#Span {
+    color: rgb(214, 0, 0);
+}
+
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+ul {
+    margin-right: 400px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(214, 0, 0);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    transition: 0.5s;
+}
+
+
+#P1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#block {
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flow-root;
+    align-items: center;
+    width: 180px;
+    height: 550px;
+    border: 2px solid black;
+}
+
+#guitars {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}

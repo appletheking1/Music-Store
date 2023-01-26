@@ -1,0 +1,84 @@
+﻿body {
+    background-color: rgb(228, 228, 228);
+    background-position: center;
+    background-size: cover;
+}
+#button1 {
+    margin: 50px;
+    width: 100px;
+    height: 85px;
+}
+
+td {
+    padding: 5px;
+    border: 2px solid black;
+    font-size:10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top:30px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-color: rgb(32, 32, 32);
+}
+
+#Navlogo {
+    font-size: 40px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+}
+
+#Span {
+    color: rgb(214, 0, 0);
+}
+
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+ul {
+    margin-right: 400px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(214, 0, 0);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    transition: 0.5s;
+}
+
+#H {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(214, 0, 0);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    transition: 0.5s;
+}
+.Note {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    transition: 0.5s;
+}
+#gen {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    transition: 0.5s;
+}
