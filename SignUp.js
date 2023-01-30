@@ -1,4 +1,4 @@
-﻿function checkFirstName() {
+function checkFirstName() {
     var x = firstname.value;
 
     if (x.length >= 2) {
@@ -83,6 +83,16 @@ function Mail() {
         return false;
     }
 }
+function Played() {
+    if (yes.checked || no.checked ) {
+        msg4.innerHTML = "";
+        return true;
+    }
+    else {
+        msg4.innerHTML = "Must Choose an option";
+        return false;
+    }
+}
 
 function Checks() {
     var result = checkFirstName();
@@ -92,5 +102,6 @@ function Checks() {
     result = PassWord() && result;
     result = CheckPassword() && result;
     result = Mail() && result;
+    result = Played() && result;
     return result;
 }
